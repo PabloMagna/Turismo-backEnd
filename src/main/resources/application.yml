@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: turismo
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/turismo?serverTimezone=UTC
+    username: root
+    password: root
+
+server:
+  port: 9001
+
+
